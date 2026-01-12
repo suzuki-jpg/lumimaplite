@@ -1,6 +1,6 @@
 {
-  "name": "Lumimaplite",
-  "short_name": "App",
+  "name": "Lumimap Lite",
+  "short_name": "Lumimap Lite",
   "start_url": "/lumimaplite2/",
   "scope": "/lumimaplite2/",
   "display": "standalone",
