@@ -1,6 +1,6 @@
 {
-  "name": "Lumimap Lite",
-  "short_name": "Lumimap Lite",
+  "name": "LumiMap-Lite",
+  "short_name": "LumiMap-Lite",
   "start_url": "/lumimaplite2/",
   "scope": "/lumimaplite2/",
   "display": "standalone",
@@ -13,7 +13,7 @@
       "type": "image/png"
     },
     {
-      "src": "/lumimaplite2/icons/icon-512.png",
+      "src": "/lumimaplite2/icons/apple-touch-icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
