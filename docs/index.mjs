@@ -21986,12 +21986,12 @@ const Hi = {
 			
 			// 0 かどうかを「整数」として比較できる
 			if (status != 0) {
-				float blink = sin(uTime * 2.0) * 0.3 + 0.9; // 0.7
+				float blink = sin(uTime * 2.0) * 0.3 + 0.7; // 0.7
 				float stripe = step(0.5, mod((vDataUv.x + vDataUv.y + uTime * 0.1) * 20.0, 1.0));
 				
 				// 整数値で直接色を分岐
 				vec3 alertColor = (status > 0) ? vec3(1.0, 0.0, 0.0) : vec3(0.0, 0.0, 1.0);
-				return vec4(alertColor, 1.0);
+				//return vec4(alertColor, 1.0);
 				vec3 finalRGB = mix(alertColor, vec3(1.0), stripe * 0.3);
 				
 				return vec4(finalRGB * blink, 1.0);
@@ -25777,7 +25777,7 @@ class c1 {
 }
 class h1 {
   constructor() {
-    this.seletedImageType = "original", this.targetedImageType = "luminance", this.mix = 0.3, this.showOverflow = !0, this.showProbe = !0, this.showGrid = !1, this.lutIndex = Gi.names.findIndex((e) => e == "Viridis"), this.lutCount = Gi.names.length, this.luminance = {
+    this.seletedImageType = "original", this.targetedImageType = "luminance", this.mix = 0, this.showOverflow = !0, this.showProbe = !0, this.showGrid = !1, this.lutIndex = Gi.names.findIndex((e) => e == "Viridis"), this.lutCount = Gi.names.length, this.luminance = {
       max: 1e3,
       min: 1
     }, this.luminanceRatio = {
